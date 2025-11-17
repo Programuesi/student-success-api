@@ -1,0 +1,47 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Conda
+conda-meta/
+*.conda
+*.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+.code-workspace
+
+# -------------------------
+# Docker
+# -------------------------
+*.log
+Dockerfile~
+docker-compose.yml~
+.dockerignore~
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Project specific
+# -------------------------
+data/
